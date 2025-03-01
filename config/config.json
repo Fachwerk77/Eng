@@ -1,0 +1,18 @@
+{
+  "model_settings": {
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "device": "cuda",
+    "batch_size": 32,
+    "max_seq_length": 512
+  },
+  "training_settings": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "warmup_steps": 100
+  },
+  "system_settings": {
+    "seed": 42,
+    "num_workers": 4,
+    "cache_dir": "cache"
+  }
+}
