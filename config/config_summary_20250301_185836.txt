@@ -1,0 +1,22 @@
+================================================================================
+                         EMBEDDING-MODELL KONFIGURATION                         
+                              2025-03-01 18:58:36                               
+================================================================================
+
+MODEL_SETTINGS:
+- embedding_model: sentence-transformers/all-mpnet-base-v2
+- device        : cuda
+- batch_size    : 32
+- max_seq_length: 512
+
+TRAINING_SETTINGS:
+- epochs        : 3
+- learning_rate : 2e-05
+- warmup_steps  : 100
+
+SYSTEM_SETTINGS:
+- seed          : 42
+- num_workers   : 4
+- cache_dir     : cache
+
+================================================================================
