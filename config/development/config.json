@@ -3,7 +3,7 @@
         "name": "NormenBot",
         "version": "2.0.0",
         "description": "KI-gestütztes Normenmanagementsystem für Bauingenieurwesen",
-        "created_at": "2025-03-01 22:04:57",
+        "created_at": "2025-03-01 22:53:32",
         "environment": "development"
     },
     "system": {
