@@ -1,0 +1,64 @@
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[german]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+\title{KI-gestütztes Normenmanagementsystem für Bauingenieurwesen}
+\author{}
+\date{\today}
+
+\newcommand{\inputsection}[1]{
+    \input{sections/#1}
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% Einleitung
+\section{Einleitung}
+\inputsection{einleitung}
+
+% Projektbeschreibung
+\section{Projektbeschreibung}
+\inputsection{projektbeschreibung}
+
+% Systemarchitektur
+\section{Systemarchitektur}
+\inputsection{systemarchitektur}
+
+% Technologiestack
+\section{Technologiestack}
+\inputsection{technologiestack}
+
+% Entwicklungsphasen
+\section{Entwicklungsphasen}
+\inputsection{entwicklungsphasen}
+
+% Implementierung
+\section{Implementierung}
+\inputsection{implementierung}
+
+% Testing
+\section{Testing}
+\inputsection{testing}
+
+% Dokumentation
+\section{Dokumentation}
+\inputsection{dokumentation}
+
+% Fazit
+\section{Fazit}
+\inputsection{fazit}
+
+\end{document}
