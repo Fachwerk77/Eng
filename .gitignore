@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Vertrauliche Daten
+config/env/prod/
+*.key
+*.pem
+.env
+
+# Logs und Datenbanken
+*.log
+*.sqlite
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporäre Dateien
+data/interim/
+*.tmp
+.DS_Store
+
+# Große Dateien
+*.model
+*.bin
+models/checkpoints/
