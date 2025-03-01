@@ -1,0 +1,34 @@
+# NLP und ML
+torch>=2.0.0
+transformers>=4.25.0
+sentence-transformers>=2.2.0
+spacy>=3.5.0
+nltk>=3.7.0
+
+# PDF-Verarbeitung
+PyPDF2>=2.10.0
+pdfplumber>=0.7.0
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+pymupdf>=1.20.0
+
+# Wissenschaftliche Bibliotheken
+numpy>=1.22.0
+pandas>=1.5.0
+scipy>=1.8.0
+sympy>=1.10.0
+scikit-learn>=1.0.0
+
+# Web und API
+fastapi>=0.88.0
+uvicorn>=0.20.0
+pydantic>=1.10.0
+
+# Datenbank
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# Hilfsbibliotheken
+tqdm>=4.64.0
+pyyaml>=6.0
+python-dotenv>=0.20.0
